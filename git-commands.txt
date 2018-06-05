@@ -1,0 +1,28 @@
+
+							/* ========================  GIT COMMANDS  ======================== */
+
+				
+				
+						1. git config --global user.name "Your Name"
+						
+						2. git config --global user.email "youremail@mail.com"
+						
+						3. git init - 'init' means to initialize, it will create a .git hidden folder inside our repository
+							       now git will watch every activity inside the repo.
+
+						4. git status - whenever we want to see the changes happened in our repo, using this command it will tell 
+								us the changes we have made in it and those changes are untracked or not.
+
+						5. git add file-name.txt - Now to track those changes, we need to add those files using this command.
+
+						
+						6. git commit -m"Your message here" - Now we have to commit those changes to make it permanent,
+										      in other words it means to create a checkpoint(Version)
+										      so that we can always check the changes made at any time.
+
+						7. git remote add variableName "linkToYourRepositoryOnGitHub.git" - this will make your project to ready to
+													be uploaded on GitHub.
+
+
+						8. git push variableName master - Now your project will be pushed on cloud on 'master' branch but before that,
+										  you'll be asked your username & password for your GitHub account. 
